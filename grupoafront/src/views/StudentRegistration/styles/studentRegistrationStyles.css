@@ -1,0 +1,39 @@
+.student-registration-container {
+  padding: 5%;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-label {
+  background-color: #eeeeee;
+  width: 20%;
+  padding: 5px;
+  margin-left: 20px;
+  border: 1px solid #d6d6d6;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.input-field {
+  width: 60%;
+}
+
+.button-group {
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+}
+
+.button {
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.button[disabled] {
+  cursor: not-allowed;
+}
