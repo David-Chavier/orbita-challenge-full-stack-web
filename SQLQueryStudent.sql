@@ -1,0 +1,7 @@
+CREATE TABLE Students (
+    AcademicRegistration NVARCHAR(100) NOT NULL PRIMARY KEY,
+    Name NVARCHAR(100),
+    CPF NVARCHAR(100),
+    Email NVARCHAR(100),
+    CreatedAt DATETIME DEFAULT GETDATE()
+);
